@@ -1,9 +1,13 @@
 
 # Graph neural network multi-modal learning
 
-## Motivation:
-* How to use graph neural network to both extract the feature information and to integrate the videos and kinematics data for error detection has yet to be explored. In this project, we address the problem of integrating both kinematics and videodata for erroneous gesture classification with GNN models.
-* We propose a pipeline based on graph neural network to integrate both the videos and the kinematics information for erroneous gesture detection. 
+## Motivations
+* How to use graph neural network to both extract the feature information and to integrate the videos and kinematics data for error detection has yet to be explored. In this project, we address the problem of erroneous gesture classification with GNN models by integrating both kinematics and videodata for.
+* We developed a pipeline based on graph neural network to integrate both the videos and the kinematics information for erroneous gesture detection. 
+
+<img src="https://github.com/zongyu-zoey-li/Graph_neural_network_multi-modal_learning/blob/main/pipeline.PNG" alt="drawing" width="600"/>
+
+
 ## Background
 
 Mathematically, the GCN model follows the following formula. 
@@ -22,3 +26,6 @@ where <img src="https://render.githubusercontent.com/render/math?math=h_{1},h_{2
 	     
 ## Results
 We evaluated our proposed system onthe JIGSAWS data set. In the experimental evaluation, the proposed method achieved 0.71 F1-Score.
+
+## Reference
+Yong-Hao Long, Jie-Ying Wu, Bo Lu, Yue-Ming Jin, Mathias Unberath, Yun-HuiLiu, Pheng-Ann Heng, and Qi Dou. 2020. Relational Graph Learning on Visualand Kinematics Embeddings for Accurate Gesture Recognition in Robotic Surgery.arXiv(Nov 2020).
