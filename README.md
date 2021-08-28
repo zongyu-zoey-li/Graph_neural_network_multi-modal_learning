@@ -2,7 +2,7 @@
 # Graph neural network multi-modal learning
 
 ## Motivations
-* How to use graph neural network to both extract the feature information and to integrate the videos and kinematics data for error detection has yet to be explored. In this project, we address the problem of erroneous gesture classification with GNN models by integrating both kinematics and videodata for.
+* How to use graph neural network to both extract the feature information and to integrate the video and kinematics data for error detection has yet to be explored. In this project, we address the problem of erroneous gesture classification with GNN models by integrating both kinematics and videodata for.
 * We developed a pipeline based on graph neural network to integrate both the videos and the kinematics information for erroneous gesture detection. 
 
 <img src="https://github.com/zongyu-zoey-li/Graph_neural_network_multi-modal_learning/blob/main/pipeline.PNG" alt="drawing" width="600"/>
